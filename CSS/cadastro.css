@@ -1,0 +1,68 @@
+body{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(167, 167, 167);
+margin: 0;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container{
+
+
+    background-color: azure;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1);
+
+}
+
+h1{
+text-align: center;
+color: rgb(64, 130, 254);
+
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+
+    margin-bottom: 5px;
+}
+
+input, select{
+
+ padding: 8px;   
+margin-bottom: 20px;
+border: 2px solid rgb(0, 208, 255);
+border-radius: 8px;
+font-size: 16px;
+
+}
+
+button{ 
+
+    background-color: rgb(126, 216, 254);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button:hover{
+
+background-color: antiquewhite;
+color: black;
+
+}
+

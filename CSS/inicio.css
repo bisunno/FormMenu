@@ -1,0 +1,41 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: #efcce9;
+
+}
+
+ul{
+ margin: 0;
+ padding: 0;
+
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+     
+    margin-bottom: 2px;
+    padding: 5px 15px;
+    margin-left: -2px;
+}
+
+    li a{
+
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: rgb(177, 116, 235);
+        margin-bottom: 2px;
+        padding: 5px 15px;
+
+    }
+
+
+
+    li a:hover{
+
+        background-color: cornflowerblue;
+        color: darkslategrey;
+    }
